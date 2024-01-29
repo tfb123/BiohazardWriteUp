@@ -189,7 +189,7 @@ That says: SSH user: umbrella_guest
 
 # Hidden closet
 
-From the file that we downloaded in FTP, we had important.txt info that we have /hidde_closet/ room.
+From the file that we downloaded in FTP, we had important.txt info that have /hidden_closet/ room.
 
 From the MO disk 1 we have: wpbwbxr wpkzg pltwnhro, txrks_xfqsxrd_bvv_fy_rvmexa_ajk
 
