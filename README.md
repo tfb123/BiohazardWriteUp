@@ -34,8 +34,7 @@ So it was vigene cipher: there is a shield key inside the dining room. The html 
 
 shield_key{48a7a9227cd7eb89f0a062590798cbac}
 
-# Team room
-reheader.jpg has passphrase too(need to be open)
+# Tea room
 
 Barry also suggested that Jill should visit the /artRoom/
 
