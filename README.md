@@ -39,6 +39,7 @@ lock_pick{037b35e2ff90916a9abf99129c8e1837}
 # Art room
 
 25-image21.jpg has passphrase too(need to be open)
+
 A map: Location:
 /diningRoom/
 /teaRoom/
@@ -50,6 +51,23 @@ A map: Location:
 /studyRoom/
 /armorRoom/
 /attic/
+
+# Bar room
+
+16-Image33-1.jpg
+
+moonlight sonata: NV2XG2LDL5ZWQZLFOR5TGNRSMQ3TEZDFMFTDMNLGGVRGIYZWGNSGCZLDMU3GCMLGGY3TMZL5 (check)
+
+# Dining room 2F
+
+Solve this: Lbh trg gur oyhr trz ol chfuvat gur fgnghf gb gur ybjre sybbe. Gur trz vf ba gur qvavatEbbz svefg sybbe. Ivfvg fnccuver.ugzy (Caesar cipher<rot13>)
+
+Solve this: You get the blue gem by pushing the status to the lower floor. The gem is on the diningRoom first floor. Visit sapphire.html (Caesar cipher<rot13>)
+
+
+
+
+
 
 
 
