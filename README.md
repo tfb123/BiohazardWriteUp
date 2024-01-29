@@ -29,6 +29,10 @@ Inspect element the page shows us: SG93IGFib3V0IHRoZSAvdGVhUm9vbS8= (base64: How
 
 http://10.10.145.213/diningRoom/emblem.php - emblem{fec832623ea498e20bf4fe1821d58727}
 
+http://10.10.161.5/diningRoom/sapphire.html (from /diningRoom2F)
+
+blue_jewel{e1d457e96cac640f863ec7bc475d48aa} 
+
 # Team room
 reheader.jpg has passphrase too(need to be open)
 
