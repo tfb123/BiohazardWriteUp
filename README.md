@@ -11,8 +11,6 @@ nmap -sC -sV (IP)
 #July 1998, Evening
 The ###STARS alpha team###, Chris, Jill, Barry, Weasker and Joseph is in the operation on searching the STARS bravo team in the nortwest of Racoon city. Unfortunately, the team was attacked by a horde of infected zombie dog. Sadly, Joseph was eaten alive. The team decided to run for the nearby mansion and the nightmare begin..........
 
-Mansion_front.jpg has passphrase(need to be open)
-
 gobuster dir -u http://10.10.145.213 -w /usr/share/wordlists/dirb/common.txt 
 
 /attic, /ccs, /images, /js.
@@ -20,10 +18,7 @@ gobuster dir -u http://10.10.145.213 -w /usr/share/wordlists/dirb/common.txt
 # Main hall
 From inspect element we have this info:  It is in the /diningRoom/ 
 
-Mainhall12.jpg has passphrase too(need to be open)
-
 # Dining room
-maxresdefault.jpg has passphrase too(need to be open)
 
 Inspect element the page shows us: SG93IGFib3V0IHRoZSAvdGVhUm9vbS8= (base64: How about the /teaRoom/)
 
@@ -47,9 +42,6 @@ Barry also suggested that Jill should visit the /artRoom/
 lock_pick{037b35e2ff90916a9abf99129c8e1837}
 
 # Art room
-
-25-image21.jpg has passphrase too(need to be open)
-
 A map: Location:
 /diningRoom/
 /teaRoom/
@@ -63,9 +55,6 @@ A map: Location:
 /attic/
 
 # Bar room
-
-16-Image33-1.jpg
-
 moonlight sonata: NV2XG2LDL5ZWQZLFOR5TGNRSMQ3TEZDFMFTDMNLGGVRGIYZWGNSGCZLDMU3GCMLGGY3TMZL5 (check)
 
 Sonata reveals: music_sheet{362d72deaf65f5bdc63daece6a1f676e}
@@ -73,7 +62,6 @@ Sonata reveals: music_sheet{362d72deaf65f5bdc63daece6a1f676e}
 gold_emblem{58a8c41a9d08b8a4e38d02a4d7ff4843}
 
 Putting emblem reveals nickname: rebecca
-
 
 
 # Dining room 2F
