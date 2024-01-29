@@ -127,7 +127,7 @@ Base 64 = Binary
 
 Binary = HEX
 
-HEX = c3M6IHlvdV9jYW50X2h(3rd crest decoded)
+HEX = c3M6IHlvdV9jYW50X2h (3rd crest decoded)
 
 Hint 1: Crest 3 has been encoded three times
 
@@ -136,6 +136,135 @@ Hint 2: Crest 3 contanis 19 letters
 Note: You need to collect all 4 crests, combine and decode to reavel another path
 
 The combination should be crest 1 + crest 2 + crest 3 + crest 4. Also, the combination is a type of encoded base and you need to decode it
+
+# Attic
+
+crest 4:
+
+gSUERauVpvKzRpyPpuYz66JDmRTbJubaoArM6CAQsnVwte6zF9J4GGYyun3k5qM9ma4s
+
+From Base 58 = 70 5a 47 56 66 5a 6d 39 79 5a 58 5a 6c 63 67 3d 3d --> From HEX = pZGVfZm9yZXZlcg== (4 crest decoded)
+
+Hint 1: Crest 2 has been encoded twice
+
+Hint 2: Crest 2 contanis 17 characters
+
+Note: You need to collect all 4 crests, combine and decode to reavel another path
+
+The combination should be crest 1 + crest 2 + crest 3 + crest 4. Also, the combination is a type of encoded base and you need to decode it
+
+# Combining crests
+We have now 4 crests, COMBINING BEGINS!
+
+RlRQIHVzZXI6IG (1st crest decoded)
+
+h1bnRlciwgRlRQIHBh (2nd crest decoded)
+
+c3M6IHlvdV9jYW50X2h (3rd crest decoded)
+
+pZGVfZm9yZXZlcg== (4 crest decoded)
+
+RlRQIHVzZXI6IGh1bnRlciwgRlRQIHBhc3M6IHlvdV9jYW50X2hpZGVfZm9yZXZlcg== (All combined)
+
+FTP user: hunter, FTP pass: you_cant_hide_forever (Revealed)
+
+# FTP - The guard house
+
+mget *
+
+steghide extract -sf 001-key.jpg
+
+In that key-001.txt we can find this: cGxhbnQ0Ml9jYW
+
+exiftool -a 002-key.jpg
+
+We can find in the comments this: 5fYmVfZGVzdHJveV9
+
+binwalk -e 003-key.jpg --run-as=root
+
+This reveals 3aXRoX3Zqb2x0 inf the folder -> key-003.txt
+
+Lets combine them cGxhbnQ0Ml9jYW5fYmVfZGVzdHJveV93aXRoX3Zqb2x0
+
+From Base 64 = plant42_can_be_destroy_with_vjolt (I assume its a password for the file we downloaded: helmet_ket.txt.gpg
+
+So as i see, we need to install seahorse-nautilus, then open helmet_ket.txt.gpg with the password for it
+
+sudo apt-get install seahorse-nautilus --fix-missing
+
+Then we have this: helmet_key{458493193501d2b94bbab2e727f8db4b}
+
+# Study room entrance
+
+Looking for things in this room we find eagle_medal.txt in the tar.gz
+
+That says: SSH user: umbrella_guest
+
+# Hidden closet
+
+From the file that we downloaded in FTP, we had important.txt info that we have /hidde_closet/ room.
+
+From the MO disk 1 we have: wpbwbxr wpkzg pltwnhro, txrks_xfqsxrd_bvv_fy_rvmexa_ajk
+
+weasker login password, stars_members_are_my_guinea_pig | with the key ALBERT
+
+Soo... The Albert Weasker password is: stars_members_are_my_guinea_pig
+
+The wolf medal says: SSH password: T_virus_rules
+
+# SSH
+
+Now we can access SSH: ssh umbrella_guest@10.10.161.5
+
+With the password: T_virus_rules
+
+Check all dirs: ls -la
+
+We can find the .jailcell directory
+
+There is chris.txt file
+
+There is some text and the MO disk 2: albert
+
+Now we can switch to the weasker SSH
+
+su weasker
+
+stars_members_are_my_guinea_pig
+
+Lets try to sudo su with the stars_members_are_my_guinea_pig password
+
+Oops. Now we have the root!
+
+Now we can reach root.txt
+
+flag: 3c5794a00dc56c35f2bf096571edf3bf
+
+It was an amazing adventure and super interesting ctf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
