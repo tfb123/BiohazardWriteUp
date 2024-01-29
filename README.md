@@ -191,7 +191,7 @@ That says: SSH user: umbrella_guest
 
 From the file that we downloaded in FTP, we had important.txt info that have /hidden_closet/ room.
 
-From the MO disk 1 we have: wpbwbxr wpkzg pltwnhro, txrks_xfqsxrd_bvv_fy_rvmexa_ajk
+From the MO disk 1 we have: wpbwbxr wpkzg pltwnhro, txrks_xfqsxrd_bvv_fy_rvmexa_ajk (Vigenere)
 
 weasker login password, stars_members_are_my_guinea_pig | with the key ALBERT
 
