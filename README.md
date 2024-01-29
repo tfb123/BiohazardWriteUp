@@ -25,9 +25,35 @@ Mainhall12.jpg has passphrase too(need to be open)
 # Dining room
 maxresdefault.jpg has passphrase too(need to be open)
 
-Inspect element the page shows us: SG93IGFib3V0IHRoZSAvdGVhUm9vbS8= (need to be checked)
+Inspect element the page shows us: SG93IGFib3V0IHRoZSAvdGVhUm9vbS8= (base64: How about the /teaRoom/)
 
 http://10.10.145.213/diningRoom/emblem.php - emblem{fec832623ea498e20bf4fe1821d58727}
+
+# Team room
+reheader.jpg has passphrase too(need to be open)
+
+Barry also suggested that Jill should visit the /artRoom/
+
+lock_pick{037b35e2ff90916a9abf99129c8e1837}
+
+# Art room
+
+25-image21.jpg has passphrase too(need to be open)
+A map: Location:
+/diningRoom/
+/teaRoom/
+/artRoom/
+/barRoom/
+/diningRoom2F/
+/tigerStatusRoom/
+/galleryRoom/
+/studyRoom/
+/armorRoom/
+/attic/
+
+
+
+
 
 
 
